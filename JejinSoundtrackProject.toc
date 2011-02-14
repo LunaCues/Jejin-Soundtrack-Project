@@ -1,0 +1,9 @@
+## Interface: 40000
+## Title: Jejin Soundtrack Project
+## Version: 0.1
+## Author: Katherine Beegle, Nicolas Potter
+## Notes: Jejin's WoW Soundtrack Project
+## Dependencies: Soundtrack
+## SavedVariables: 
+JSPlocalization.lua
+JejinSoundtrackProject.xml
