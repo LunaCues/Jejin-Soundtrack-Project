@@ -230,6 +230,18 @@ local JSP_Events = {
 			["random"] = true,
 			["continuous"] = true,
 		},
+		
+		[Zone["Eastern Kingdoms/Dun Morogh/Gnomeregan"]] = {
+			["tracks"] = {
+				"JejinSoundtrackProject\\Gnomeregan 1 Mp3", -- [1]
+				"JejinSoundtrackProject\\Gnomeregan 2 Mp3", -- [2]
+				"JejinSoundtrackProject\\Gnomeregan 3 Mp3", -- [3]
+			},
+			["priority"] = 3,
+			["lastTrackIndex"] = 0,
+			["random"] = true,
+			["continuous"] = true,
+		},
 
 		[Zone["Instances/Maraudon"]] = {
 			["tracks"] = {
@@ -700,26 +712,28 @@ end
 
 
 function JejinSoundtrackProject_OnUpdate(frame, elapsed)
+--[[
 	if not projectLoaded and not SoundtrackProject_CheckIfProjectLoaded("JejinSoundtrackProject") then
 		print("JSP: Attempting to load JSP to SoundtrackProject and Soundtrack")
 		SoundtrackProject_InsertProject("JejinSoundtrackProject", JSP_Events, locals);
 		JSP_LoadTracks()
 		projectLoaded = true
 	end
+	--]]
 end
 
 function JejinSoundtrackProject_OnEvent(frame, event, ...)
-	debug("JSP_OnEvent")
+	--debug("JSP_OnEvent")
 	if event == "VARIABLES_LOADED" then
-		print("JSP: loading project to SoundtrackProject")
+		--print("JSP: loading project to SoundtrackProject")
 		SoundtrackProject_InsertProject("JejinSoundtrackProject", JSP_Events, locals);
-		print("JSP: loading tracks to Soundtrack")
+		--print("JSP: loading tracks to Soundtrack")
 		JSP_LoadTracks()
 		projectLoaded = true
 	end
 end
 
 function JejinSoundtrackProject_OnLoad(frame)
-	debug("JSP_OnLoad")
+	--debug("JSP_OnLoad")
 	frame:RegisterEvent("VARIABLES_LOADED");
 end
