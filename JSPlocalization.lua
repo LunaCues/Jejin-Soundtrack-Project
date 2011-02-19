@@ -46,6 +46,7 @@ Zone["Instances/Dire Maul/Warpwood Quarter"] = "Instances/Dire Maul/Warpwood Qua
 
 -- Gnomeregan
 Zone["Instances/Gnomeregan"] = "Instances/Gnomeregan"
+Zone["Eastern Kingdoms/Dun Morogh/Gnomeregan"] = "Eastern Kingdoms/Dun Morogh/Gnomeregan"
 
 -- Maraudon
 Zone["Instances/Maraudon"] = "Instances/Maraudon"
