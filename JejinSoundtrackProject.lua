@@ -10,10 +10,11 @@ local Zone = JSP_Zone_Locale;
 local Boss = JSP_Boss_Locale;
 local locals = {"enUS"}
 
+--[[
 local function debug(msg)
 	print(msg)
 end
-
+--]]]
 
 
 ------------------------
