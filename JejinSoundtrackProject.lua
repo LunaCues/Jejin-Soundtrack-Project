@@ -711,30 +711,14 @@ end
 -- OnUpdate, OnEvent, OnLoad
 -----------------------------------
 
-
-function JejinSoundtrackProject_OnUpdate(frame, elapsed)
---[[
-	if not projectLoaded and not SoundtrackProject_CheckIfProjectLoaded("JejinSoundtrackProject") then
-		print("JSP: Attempting to load JSP to SoundtrackProject and Soundtrack")
-		SoundtrackProject_InsertProject("JejinSoundtrackProject", JSP_Events, locals);
-		JSP_LoadTracks()
-		projectLoaded = true
-	end
-	--]]
-end
-
 function JejinSoundtrackProject_OnEvent(frame, event, ...)
-	--debug("JSP_OnEvent")
 	if event == "VARIABLES_LOADED" then
-		--print("JSP: loading project to SoundtrackProject")
 		SoundtrackProject_InsertProject("JejinSoundtrackProject", JSP_Events, locals);
-		--print("JSP: loading tracks to Soundtrack")
 		JSP_LoadTracks()
 		projectLoaded = true
 	end
 end
 
 function JejinSoundtrackProject_OnLoad(frame)
-	--debug("JSP_OnLoad")
 	frame:RegisterEvent("VARIABLES_LOADED");
 end

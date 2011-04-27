@@ -4,7 +4,6 @@
 
     <Frame name="JejinSoundtrackProject" parent="UIParent" hidden="false">
         <Scripts>
-          <OnUpdate>JejinSoundtrackProject_OnUpdate(self, elapsed)</OnUpdate>
             <OnLoad>JejinSoundtrackProject_OnLoad(self)</OnLoad>
             <OnEvent>JejinSoundtrackProject_OnEvent(self, event, ...);</OnEvent>
         </Scripts>
