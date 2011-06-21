@@ -8,6 +8,7 @@ local projectName = "Jejin Soundtrack Project"
 local projectLoaded = false
 local Zone = JSP_Zone_Locale;
 local Boss = JSP_Boss_Locale;
+local Misc = JSP_Misc_Locale;
 local locales = {"enUS"}
 
 --[[
@@ -1179,7 +1180,7 @@ end
 
 function JejinSoundtrackProject_OnEvent(frame, event, ...)
 	if event == "VARIABLES_LOADED" then
-		SoundtrackProject_InsertProject(projectName, JSP_Events, locales);
+		SoundtrackProject_InsertProject("Jejin Soundtrack Project", JSP_Events, locales);
 		JSP_LoadTracks()
 		projectLoaded = true
 	end
