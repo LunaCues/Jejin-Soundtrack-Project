@@ -1,7 +1,7 @@
 ## Interface: 40100
 ## Title: Jejin Soundtrack Project
-## Version: 0.1
-## Author: Katherine Beegle, Nicolas Potter
+## Version: 1.0
+## Author: Katherine Beegle, Nicolas Potter, Hill Smith
 ## Notes: Jejin's WoW Soundtrack Project
 ## Dependencies: Soundtrack
 ## SavedVariables: 
