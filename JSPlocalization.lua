@@ -70,7 +70,7 @@ Zone["Instances/Maraudon/Zaetar's Grave"] = "Instances/Maraudon/Zaetar's Grave"
 Zone["Instances/Ragefire Chasm"] = "Instances/Ragefire Chasm"
 
 -- Razorfen Downs
-Zone["Kalimdor/Razorfen Downs"] = "Kalimdor/Razorfen Downs"
+Zone["Kalimdor/Thousand Needles/Razorfen Downs"] = "Kalimdor/Thousand Needles/Razorfen Downs"
 Zone["Instances/Razorfen Downs"] = "Instances/Razorfen Downs"
 Zone["Instances/Razorfen Downs/The Bone Pile"] = "Instances/Razorfen Downs/The Bone Pile"
 Zone["Instances/Razorfen Downs/The Caller's Chamber"] = "Instances/Razorfen Downs/The Caller's Chamber"

@@ -409,7 +409,7 @@ local JSP_Events = {
 
 		
 		-- Razorfen Downs
-		[Zone["Kalimdor/Razorfen Downs"]] = {
+		[Zone["Kalimdor/Thousand Needles/Razorfen Downs"]] = {
 			["tracks"] = {
 				"JejinSoundtrackProject\\Razorfen Kraul II", -- [1]
 				"JejinSoundtrackProject\\Razorfen Kraul III", -- [2]
@@ -721,7 +721,7 @@ local JSP_Events = {
 			},
 			["lastTrackIndex"] = 3,
 			["random"] = true,
-			["priority"] = 3,
+			["priority"] = 2,
 			["expanded"] = true,
 			["continuous"] = true,
 		},
