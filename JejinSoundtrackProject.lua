@@ -474,6 +474,18 @@ local JSP_Events = {
 			["expanded"] = false,
 			["continuous"] = true,
 		},
+		[Zone["Instances/Razorfen Kraul"]] = {
+			["tracks"] = {
+				"JejinSoundtrackProject\\Razorfen Kraul I", -- [1]
+				"JejinSoundtrackProject\\Razorfen Kraul IV", -- [2]
+			},
+			["lastTrackIndex"] = 2,
+			["random"] = true,
+			["priority"] = 2,
+			["expanded"] = false,
+			["continuous"] = true,
+		},
+		
 		
 		
 		-- Scarlet Monastery

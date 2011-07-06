@@ -78,6 +78,7 @@ Zone["Instances/Razorfen Downs/The Murder Pens"] = "Instances/Razorfen Downs/The
 
 -- Razorfen Kraul
 Zone["Kalimdor/Razorfen Kraul"] = "Kalimdor/Razorfen Kraul"
+Zone["Instances/Razorfen Kraul"] = "Instances/Razorfen Kraul"
 
 -- Scarlet Monastery
 Zone["Instances/Scarlet Monastery"] = "Instances/Scarlet Monastery" 
